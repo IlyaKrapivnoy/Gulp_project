@@ -6,16 +6,18 @@
 @import "base/general";
 @import "../blocks/modules";
 
+html, body {
+    height: 100%;
+}
+
 body {
     font-size: $font-base;
     color: $black;
     overflow-x: hidden;
     position: relative;
 
-
-
-    
-    height: 2000px;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -30,17 +32,39 @@ a {
     margin: 0 auto;
 }
 
+.content {
+    flex: 1 0 auto;
+}
+
 .top--section {
-    height: 100vh;
+    max-height: 800px;
     background-image: url(../img/bg.jpeg);
     background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
 
     .top--section__description {
-        // display: flex;
-        // flex-direction: column;
-        // justify-content: center;
-        // height: 100%;
-        width: 30%;
+        width: 50%;
+        padding-top: 100%;
+        padding-left: 5%;
+        transform: translateY(-50%);
+        text-align: center;
+
+        h3 {
+            font-size: 36px;
+        }
+
+        h1 {
+            font-size: 90px;
+
+            span {
+                font-weight: 400;
+            }
+        }
+        p {
+            text-align: left;
+            line-height: 30px;
+            padding-left: 100px;
+        }
     }
 }
