@@ -5,3 +5,9 @@
 @import "base/fonts";
 @import "base/general";
 @import "../blocks/modules";
+
+body {
+    font-size: $font-base;
+    color: $black;
+    overflow-x: hidden;
+}
