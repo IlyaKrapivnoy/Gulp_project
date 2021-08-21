@@ -37,7 +37,7 @@ a {
 }
 
 .top--section {
-    max-height: 800px;
+    height: 800px;
     background-image: url(../img/bg.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -45,9 +45,9 @@ a {
 
     .top--section__description {
         width: 50%;
-        padding-top: 100%;
+        padding-top: 90px;
         padding-left: 5%;
-        transform: translateY(-50%);
+        transform: translateY(50%);
         text-align: center;
 
         h3 {
