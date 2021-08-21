@@ -10,6 +10,12 @@ body {
     font-size: $font-base;
     color: $black;
     overflow-x: hidden;
+    position: relative;
+
+
+
+    
+    height: 2000px;
 }
 
 a {
@@ -17,4 +23,24 @@ a {
     text-decoration: none;
     text-decoration-color: $yellow;
     cursor: pointer;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.top--section {
+    height: 100vh;
+    background-image: url(../img/bg.jpeg);
+    background-size: cover;
+    position: relative;
+
+    .top--section__description {
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
+        // height: 100%;
+        width: 30%;
+    }
 }
