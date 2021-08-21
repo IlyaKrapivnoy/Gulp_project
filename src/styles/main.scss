@@ -11,3 +11,10 @@ body {
     color: $black;
     overflow-x: hidden;
 }
+
+a {
+    color: $black;
+    text-decoration: none;
+    text-decoration-color: $yellow;
+    cursor: pointer;
+}
